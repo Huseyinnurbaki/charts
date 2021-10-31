@@ -1,3 +1,15 @@
 apiVersion: v1
-entries: {}
-generated: "2021-10-31T16:26:14.821356+03:00"
+entries:
+  crypto-watchdog:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-31T23:53:22.962485+03:00"
+    description: Periodically queries crypto market and notifies potential pumps &
+      recently added tokens/coins via web-hooks.
+    digest: 29b2ebcbbf75f7996f4567797753f42df9deabfd6531d567c29e0784c22062a4
+    name: crypto-watchdog
+    type: application
+    urls:
+    - https://huseyinnurbaki.github.io/charts/crypto-watchdog/packages/crypto-watchdog-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-10-31T23:53:22.961793+03:00"
