@@ -4,6 +4,7 @@ helm charts
 
 ```
 $ helm repo add hhaluk https://huseyinnurbaki.github.io/charts/
+$ helm install crypto-watchdog hhaluk/crypto-watchdog
 ```
 
 
