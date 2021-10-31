@@ -10,6 +10,6 @@ entries:
     name: crypto-watchdog
     type: application
     urls:
-    - https://huseyinnurbaki.github.io/charts/crypto-watchdog/packages/crypto-watchdog-0.1.0.tgz
+    - https://huseyinnurbaki.github.io/charts/crypto-watchdog-0.1.0.tgz
     version: 0.1.0
 generated: "2021-10-31T23:53:22.961793+03:00"
