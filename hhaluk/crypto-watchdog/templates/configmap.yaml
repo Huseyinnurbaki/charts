@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "hhaluk"
+  {{- $relname := .Release.Name -}}
+  {{- with .Values.favorite }}
+  HOURLY_PERCENTAGE: {{ .hourly_percentage | default "70" | quote }}
+  DAILY_PERCENTAGE: {{ .daily_percentage | default "300" | quote }}
+  COIN_GECKO_PAGE_LIMIT: {{ .coin_gecko_page_limit | default "true" | quote }}
+  BITQUERY_NEW_LISTED_BSC_COINS_ENABLED: {{ .bitquery_new_listed_bsc_coins_enabled | default "true" | quote }}
+  release: {{ $relname }}
+  {{- end }}
