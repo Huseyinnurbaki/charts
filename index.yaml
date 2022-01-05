@@ -3,10 +3,10 @@ entries:
   crypto-watchdog:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-06T02:13:14.030434+03:00"
+    created: "2022-01-06T02:22:27.268818+03:00"
     description: Periodically queries crypto market and notifies potential pumps &
       recently added tokens/coins via web-hooks.
-    digest: 39a0fde4e15b99d69ee0b3510ff6d66e221ea93d07f03c634ce6149f4c66be16
+    digest: 886e0a5a5e45b7a922348442ea1198779fddf50ddb0cd7e8c553e7af07e555ff
     name: crypto-watchdog
     type: application
     urls:
@@ -15,12 +15,12 @@ entries:
   mocktail:
   - apiVersion: v2
     appVersion: 2.0.1
-    created: "2022-01-06T02:13:14.031401+03:00"
+    created: "2022-01-06T02:22:27.269284+03:00"
     description: Free & fancy mock API server with dashboard.
-    digest: ce63357556510779e2b55a834406c19789102897cb6e8618a1d311c3aaf261d7
+    digest: 8a73893961a575881e0ba0392bc72d75cd11bf65029ddff686c36b854fb65a4d
     name: mocktail
     type: application
     urls:
     - https://huseyinnurbaki.github.io/charts/mocktail-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-06T02:13:14.029634+03:00"
+generated: "2022-01-06T02:22:27.267762+03:00"
