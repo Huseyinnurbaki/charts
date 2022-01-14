@@ -3,10 +3,10 @@ entries:
   crypto-watchdog:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-06T02:22:27.268818+03:00"
+    created: "2022-01-14T20:13:36.571571+03:00"
     description: Periodically queries crypto market and notifies potential pumps &
       recently added tokens/coins via web-hooks.
-    digest: 886e0a5a5e45b7a922348442ea1198779fddf50ddb0cd7e8c553e7af07e555ff
+    digest: a1ce684b7feec443014f5904d0daf7529bc8c7021389898fb6316285e9b4f3d9
     name: crypto-watchdog
     type: application
     urls:
@@ -14,8 +14,19 @@ entries:
     version: 0.1.0
   mocktail:
   - apiVersion: v2
+    appVersion: 2.0.2
+    created: "2022-01-14T20:13:36.573228+03:00"
+    description: Free, 11mb, mock API server with a dashboard.
+    digest: dedebdbe4180decf8c0251c59c54c91e52d2d9a9959efbd160682ed7730e2d9c
+    icon: https://repository-images.githubusercontent.com/258341966/9ca586dd-f169-4297-a889-f1fdb18d3415
+    name: mocktail
+    type: application
+    urls:
+    - https://huseyinnurbaki.github.io/charts/mocktail-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 2.0.1
-    created: "2022-01-06T02:22:27.269284+03:00"
+    created: "2022-01-14T20:13:36.572314+03:00"
     description: Free & fancy mock API server with dashboard.
     digest: 8a73893961a575881e0ba0392bc72d75cd11bf65029ddff686c36b854fb65a4d
     name: mocktail
@@ -23,4 +34,4 @@ entries:
     urls:
     - https://huseyinnurbaki.github.io/charts/mocktail-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-06T02:22:27.267762+03:00"
+generated: "2022-01-14T20:13:36.568659+03:00"
